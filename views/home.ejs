@@ -1,0 +1,32 @@
+
+<%- include("partials/header"); -%>
+
+<br> <br> <hr>
+
+    <h1>Why Journal?</h1>
+    <p style="font-size: 18px;"> <%= startingContent %> </p>
+
+    <br>  <br>
+
+    <hr>
+     
+  <%  posts.forEach(function(post){ %>
+    
+    <form action="/delete" method="post">
+
+      <h1><%=post.title%></h1>
+      <p>
+        <%=post.content.substring(0, 200) + " ..."%>
+        <a href="/posts/<%=post._id%>">Read More</a>
+      </p>
+
+      <input type="hidden" name="postID" value="<%= post._id %>">
+      
+      <button class="btn btn-danger" style="width: 110px; height: 40px; font-family: monospace;" type="submit"> DELETE </button>
+    </form>
+
+    <br> <br> <hr>
+
+    <% }) %>
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,115 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+  background: linear-gradient(to left, #0F2027, #203A43, #2C5364);
+  color: white !important;
+}
+
+.navbar{
+  background-color: transparent !important;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-brand{
+  font-family: 'Kelly Slab', cursive !important;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.navbar-nav a{
+  font-size: 15px;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+hr{
+  width: 70%;
+}
+
+.footer{
+  background-color: transparent !important;
+}
+
+h1{
+  font-family: 'Kelly Slab', cursive !important;
+  font-weight: 900;
+}
+
+p{
+  font-family: monospace !important;
+}
+
+form input{
+  background-color: transparent !important;
+  color: white !important;
+  font-family: 'Kelly Slab', cursive !important;
+  font-size: 25px !important;
+  height: 40px !important;
+}
+
+form textarea{
+  background-color: transparent !important;
+  color: white !important;
+  font-family: monospace !important;
+  font-size: 20px !important;
+}
+
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+button{
+  position: absolute !important;
+  right: 10% !important;
+}
+
+.btn-box{
+  border: none !important;
+  width: 260px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #0F2027;
+}
